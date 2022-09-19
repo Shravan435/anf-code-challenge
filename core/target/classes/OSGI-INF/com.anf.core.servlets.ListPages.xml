@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.anf.core.servlets.ListPages">
+  <property name="sling.servlet.resourceTypes" type="String">anf-code-challenge/components/page</property>
+  <property name="sling.servlet.methods" type="String">GET</property>
+  <property name="sling.servlet.selectors" type="String">list</property>
+  <property name="sling.servlet.extensions" type="String">txt</property>
+  <property name="sling.servlet.resourceSuperType" type="String" value="sling/bundle/resource"/>
+  <property name="service.description" type="String" value="List Pages Servlet"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <reference name="queryBuilder" interface="com.day.cq.search.QueryBuilder" field="queryBuilder"/>
+  <implementation class="com.anf.core.servlets.ListPages"/>
+</scr:component>

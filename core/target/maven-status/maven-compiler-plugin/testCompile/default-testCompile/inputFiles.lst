@@ -1,0 +1,6 @@
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/models/HelloWorldModelTest.java
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/servlets/SimpleServletTest.java
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/filters/LoggingFilterTest.java
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/models/NewsFeedTest.java
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/listeners/SimpleResourceListenerTest.java
+/Users/rebel25/Documents/code-challenge/anf-code-challenge/core/src/test/java/com/anf/core/schedulers/SimpleScheduledTaskTest.java
